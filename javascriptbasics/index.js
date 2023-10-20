@@ -1,18 +1,25 @@
+/**
+ * ===== Troubleshooting =====
+ * The function below should log the number 2, however it does not, 
+ * see if you can fix it!
+ * Be sure to fix it in the spirit of the code, do not hard code the result.
+ */
 
-// let name = 'iver';
-// console.log(name);
+function troubleshooting() {
+	const a = 1;
+	const b = 1;
 
-// Canno  be a reserved keyword 
-// Should be meaningful
-// Connot start with  a number (1name)
-// Cannot contain a space or hyphen(-)
-// Are keys-sensiive
-// 
+	let result;
 
-// let firstName = 'iver';
-// let lastName =  'flako';
+	// Edit between these lines
+	// =================================
+	result = a + b;
 
-// constant 
-const interstRate = 0.3;
-interstRate = 1; 
-console.log(interstRate); 
+	// =================================
+
+	return result;
+}
+
+ console.log(result);
+// // Do not change this 
+// module.exports = troubleshooting;
